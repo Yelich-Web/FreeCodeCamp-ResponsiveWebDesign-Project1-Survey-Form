@@ -1,0 +1,74 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2013/01/10/14/18/starfish-74535_1280.jpg);
+background-size:cover;
+}  
+h1, p{
+  text-align:center;
+  
+  
+}
+label {
+  display:block;
+  margin: 1rem;
+  font-weight: bold;
+  }
+  
+
+#dropdown{
+  display:block;
+ 
+  border-radius:12px;
+}
+#radio{
+  display:block;
+ 
+}
+textarea{
+  border-radius:12px;
+  margin-left:1rem
+}
+button{
+  display:block;
+  border-radius:12px;
+}
+
+form{
+ width: 70vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  border:solid 1px black;
+  border-radius:12px;
+   backdrop-filter: blur(10px);
+
+}
+select{
+  margin-top:6px;
+}
+
+input, textarea {
+  background-color: transparent;
+  border: 1px solid #0a0a23;
+  color: black;
+  margin-bottom:10px;
+  border-radius:15px;
+  padding:4px;
+}
+
+fieldset{
+    border: none;
+  padding: 2rem 0;
+  
+
+}
+button{
+  margin-left: 4em;
+}
+legend{
+  margin-left:0.5rem;
+  font-weight:bold;
+}
+option{
+  border-radius:12px;
+}

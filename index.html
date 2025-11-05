@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill in our survey form with necessary information</p>
+    <form id="survey-form">
+      <label id="name-label"><input id="name" type="text" required placeholder="Please enter your name"> Name</label>
+       <label id="email-label"><input id="email" type="email" required placeholder="Please enter your email"> Email </label>
+       <label id="number-label"><input id="number" type="number" min="18" max="99" placeholder="Age"> Age</label>
+      <fieldset>
+    <label> Do you like our products?
+    <select id="dropdown">
+      <option name="yes">Yes</option>
+      <option name="no">No</option>
+    </select
+    </label>
+    </fieldset>
+    <fieldset>
+      <legend>Would you recommend our products to a friend?</legend>
+    <label><input type="radio" value="yes" name="enjoy">Yes</label>
+    <label><input type="radio" value="no" name="enjoy">  No</label>
+    <label><input type="radio" value="maybe" name="enjoy"> Maybe</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Would you buy our products again?</legend>
+    <label><input type="checkbox" value="absolutely" >Absolutely!</label>
+    <label><input type="checkbox" value="not" >No</label>
+    </fieldset>
+
+    <textarea placeholder="Please leave a comment"></textarea>
+    <button type="submit" id="submit">Submit</button>
+    </form>
+
+
+
+  </body>
+</html>
